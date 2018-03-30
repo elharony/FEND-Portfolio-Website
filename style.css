@@ -1,0 +1,162 @@
+/*
+* Color #1: #02b3e4
+* Color #2: #2d3c49
+* Color #3: #7d97ad
+*/
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,div,span,ul,li {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px solid #7d97ad;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header .logo {
+    width: 30%;
+    margin: 10px auto;
+}
+
+.header .logo .thumbnail {
+    width: 100%;
+}
+
+.header .intro {
+    width: 100%;
+}
+
+.header .intro .intro-details {
+    color: #7d97ad;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* Hero */
+.hero {
+    margin-bottom: 1rem;
+}
+
+.hero img {
+    width: 100%;
+}
+
+
+/* Portfolio */
+.portfolio .section-title {
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #7d97ad;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-grid .item {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.portfolio-grid .item img {
+    width: 100%;
+}
+
+.portfolio-grid .item .name {
+    color: #2d3c49;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem 0 0;
+    text-transform: uppercase;   
+}
+
+.portfolio-grid .item a {
+    text-decoration: none;
+    color: #2d3c49;
+    font-size: 0.75rem;
+}
+
+
+/* Breakpoints */
+@media screen and (min-width: 480px) {
+    .portfolio-grid .item {
+        width: 48%;
+        margin: 0 auto 1.5rem;
+    }
+    .portfolio-grid .item:nth-child(2n) {
+        margin-right: 0;
+    }
+    .portfolio-grid .section-title {
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .header .logo {
+        width: 20%;
+    }
+    .header .intro {
+        width: 80%;
+    }
+    .header .intro .intro-details {
+        padding-top: 3vh;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .header, .hero, .portfolio {
+        width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .header .logo {
+        width: 15%;
+        margin-left: 0;
+    }
+    .portfolio-grid .item {
+        width: 32%;
+    }
+    .portfolio-grid .item:nth-child(3n) {
+        margin-right: 0;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .header, .hero, .portfolio {
+        width: 870px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .header .logo {
+        width: 12.5%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .header, .hero, .portfolio {
+        width: 970px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
