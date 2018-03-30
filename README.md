@@ -20,4 +20,4 @@ A gridview of your most recent works. To showcase your projects you should add t
 - URL
 
 ## Final Result
-You can check the Live Preview [HERE!](https://elharony.github.io/Front-end-Nanodegree/Portfolio%20Website/).
+You can check the Live Preview [HERE!](https://elharony.github.io/FEND-Portfolio-Website/).
