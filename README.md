@@ -1,23 +1,18 @@
 # Portfolio Website
-A responsive portfolio website to highlights some of your awesome projects!
+A Responsive Portfolio HTML5/CSS3 Website Template to highlights some of your awesome projects!
 
-## Sections
-This is an overview of the website's sections:
-
-### Header
-Here you can add your:
-- Name
+## What's included?
+This responsive template allows you to write the following:
+- Your Name
 - Job Title
-- Image
+- Personal Image
+- Wide background that reflects your gadgets, tools, technologies, ... etc.
+- Gridview of your most recent works. To showcase your projects you should add the following to each project:
+  - Image
+  - Name
+  - URL
 
-### Intro Banner
-A wide background that reflects your gadgets, tools, technologies, ... etc.
+## Take a look!
+Feel free to open [The Live Preview](https://elharony.github.io/FEND-Portfolio-Website/) OR check the screenshot below
 
-### Portfolio
-A gridview of your most recent works. To showcase your projects you should add the following to each project:
-- Image
-- Name
-- URL
-
-## Final Result
-You can check the Live Preview [HERE!](https://elharony.github.io/FEND-Portfolio-Website/).
+![screenshot_2018-09-12 yahya elharony front-end developer](https://user-images.githubusercontent.com/16986422/45455331-01e0a400-b6e7-11e8-93d7-5d689dc186ed.png)
